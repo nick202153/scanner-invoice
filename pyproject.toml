@@ -1,0 +1,26 @@
+[project]
+name = "scanner-python"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "CCT",email = "nick202153@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "setuptools (>=80.9.0,<81.0.0)"
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.30.0"
+paddleocr = "^2.7.3" 
+# 確保這個核心依賴存在
+paddlepaddle = "^2.6.0" 
+opencv-python = "^4.9.0.80"
+numpy = "^1.26.4"
+Pillow = "^10.2.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
